@@ -12,7 +12,7 @@ class MainKtTest {
         val cardType = "VK Pay"
         val monthAmount = 30_000
         val moneyTransfer = 5_000
-        val expectedResult = 0
+        val expectedResult = 1
         //act
         val actualCommission = commission(
             cardType = cardType,
